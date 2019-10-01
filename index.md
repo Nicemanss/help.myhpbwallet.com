@@ -46,7 +46,7 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 13. Under "Read / Write Contract", select "setHolderAddress"
 14. In the "coinBase" field, input the public key of your BOE.
 15. In te "holderAddr" field, input the public key of your new holder address (Trezor/Ledger address)
-16. Select the method of which to access your holding wallet. Using Ledger or Trezor is Highly recommended for security reasons!
+16. Select the way you want to authenticate your BOE Wallet (Keystore or private key)
 17. Press the "Write" button
 18. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
 19. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
