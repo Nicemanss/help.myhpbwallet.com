@@ -4,5 +4,5 @@
 ...
 
 
-## How to set new holder address (Node function)
+## How Nodes can set new holder address
 ....
