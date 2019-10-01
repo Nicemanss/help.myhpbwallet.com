@@ -2,6 +2,7 @@
 
 
 ## How to vote for HPB nodes
+0. If you are doing this with a Ledger, you need to ensure that you enable Contract Data in the settings of the HPB app on your Ledger.
 1. Head over to https://myhpbwallet.com/#contracts
 2. Under "Select Existing Contract", select "Vote"
 3. Press the "Access" button
@@ -23,28 +24,30 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 
 ## How Nodes can set new holder address
 ### This function is to set a different coin holder address than the address assigned to your BOE and used on the Node. A  scenario could be that you wish to use a hardware wallet like Trezor or Ledger to store the coins that are taken into consideration for your node holdings.
+
 1. Head over to https://myhpbwallet.com/#contracts
 2. Under "Select Existing Contract", select "Set Node holder address"
 3. Press the "Access" button
 
 
 #### First you will need to show that you own the address in question that is holding your coins (your new Ledger/Trezor wallet), which is done with "setApproval".
-4. Under "Read / Write Contract", select "setApproval"
-5. In the "to" field, input the public key of your BOE
-6. On the "approved" bool, select "True"
-7. Select the method of which to access your holding wallet. Using Ledger or Trezor is Highly recommended for security reasons!
-8. Press the "Write" button
-9. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
-10. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
-11. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have inputted the Ledger/Trezor public key in the "to" input field
+4. If you are doing this with a Ledger, you need to ensure that you enable Contract Data in the settings of the HPB app on your Ledger.
+5. Under "Read / Write Contract", select "setApproval"
+6. In the "to" field, input the public key of your BOE
+7. On the "approved" bool, select "True"
+8. Select the method of which to access your holding wallet. Using Ledger or Trezor is Highly recommended for security reasons!
+9. Press the "Write" button
+10. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
+11. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
+12. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have inputted the Ledger/Trezor public key in the "to" input field
 
 
 #### Secondly you need to tell the about the new holding address, and this part is done with the private key for the wallet which is bound to your BOE
-12. Under "Read / Write Contract", select "setHolderAddress"
-13. In the "coinBase" field, input the public key of your BOE.
-14. In te "holderAddr" field, input the public key of your new holder address (Trezor/Ledger address)
-15. Select the method of which to access your holding wallet. Using Ledger or Trezor is Highly recommended for security reasons!
-16. Press the "Write" button
-17. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
-18. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
-19. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you inputted the wrong data or the approval was not done correctly from the holder address.
+13. Under "Read / Write Contract", select "setHolderAddress"
+14. In the "coinBase" field, input the public key of your BOE.
+15. In te "holderAddr" field, input the public key of your new holder address (Trezor/Ledger address)
+16. Select the method of which to access your holding wallet. Using Ledger or Trezor is Highly recommended for security reasons!
+17. Press the "Write" button
+18. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
+19. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
+20. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you inputted the wrong data or the approval was not done correctly from the holder address.
