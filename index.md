@@ -1,6 +1,7 @@
-# help.myhpbwallet.com
+# How to interact with contracts on myhpbwallet.com
 
-## How to vote
+
+## How to vote for HPB nodes
 1. Head over to https://myhpbwallet.com/#contracts
 2. Under "Select Existing Contract", select "Vote"
 3. Press the "Access" button
@@ -14,8 +15,10 @@
 11. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
 12. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have tried to vote with a wrong amount (remember to input in Wei, and verify you have the correct amount of coins on your wallet).
 
-## How to cancel a vote
+
+## How to cancel a vote for a HPB node
 Follow the same steps as "How to vote", but select cancelVoteForContract in point 3.
+
 
 
 ## How Nodes can set new holder address
@@ -23,6 +26,7 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 1. Head over to https://myhpbwallet.com/#contracts
 2. Under "Select Existing Contract", select "Set Node holder address"
 3. Press the "Access" button
+
 
 #### First you will need to show that you own the address in question that is holding your coins (your new Ledger/Trezor wallet), which is done with "setApproval".
 4. Under "Read / Write Contract", select "setApproval"
@@ -33,6 +37,7 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 9. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
 10. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
 11. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have inputted the Ledger/Trezor public key in the "to" input field
+
 
 #### Secondly you need to tell the about the new holding address, and this part is done with the private key for the wallet which is bound to your BOE
 12. Under "Read / Write Contract", select "setHolderAddress"
