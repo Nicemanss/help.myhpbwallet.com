@@ -6,7 +6,7 @@
 2. Under "Select Existing Contract", select "Vote"
 3. Press the "Access" button
 4. Under "Read / Write Contract", select "vote"
-5. In the "voterAddr" field, input the public key of the wallet you are going to send your votes from (for example 0xb0af0cc670b8ba07793160612511583d9f70dc61).
+5. In the "voterAddr" field, input the public key of the wallet you are going to send your votes from (for example 0xA34dcE25B3DC41d68e7c909EC5c2AEAFbB097309).
 6. In the "candidateAddr" field, input the public key of the node you are voting for (for example 0x6b668c559600186477baf091fc572ffdcca7d8ea to vote for Nicemans who is the creator of myhpbwallet.com)
 7. In the "num" field, input the amount of HPB you wish to vote, in Wei. This means that if you want to give a node 1 HPB as a vote, you would input 1000000000000000000 in the "num" box. For easier conversion, you can use http://eth-converter.com/ - simply add the amount of HPB you wish to vote for in the "Ether" field, and then copy the corresponding number from the Wei field into the "num" field.
 8. Select the method of which to access your wallet. Using Ledger or Trezor is Highly recommended for security reasons!
