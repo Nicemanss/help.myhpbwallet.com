@@ -25,6 +25,7 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 ## How Nodes can set new holder address
 ### This function is to set a different coin holder address than the address assigned to your BOE and used on the Node. A  scenario could be that you wish to use a hardware wallet like Trezor or Ledger to store the coins that are taken into consideration for your node holdings.
 
+0. First transfer the funds from your BOE wallet to the new (hardware) wallet.
 1. Head over to https://myhpbwallet.com/#contracts
 2. Under "Select Existing Contract", select "Set Node holder address"
 3. Press the "Access" button
