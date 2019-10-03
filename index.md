@@ -43,7 +43,7 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 12. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have inputted the Ledger/Trezor public key in the "to" input field
 
 
-#### Secondly you need to tell the about the new holding address, and this part is done with the private key for the wallet which is bound to your BOE
+#### Secondly you need to tell the about the new holding address, and this part is done with the private key for the wallet which is bound to your BOE. It is recommended that this is done through the "Modify Address" inside the HPB Mobile Wallet, but if for some reason you are unable to use the mobile wallet you can read below how to do it on myhpbwallet.com
 13. Under "Read / Write Contract", select "setHolderAddress"
 14. In the "coinBase" field, input the public key of your BOE.
 15. In te "holderAddr" field, input the public key of your new holder address (Trezor/Ledger address)
@@ -52,3 +52,5 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 18. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
 19. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
 20. Check your transaction history on http://hpbscan.org/address/YOURPUBLICKEY and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you inputted the wrong data or the approval was not done correctly from the holder address.
+
+21. Verify that your Node address now differs from the Binding address by opening your node on http://hpbscan.org/nodes
