@@ -12,6 +12,7 @@
 
 If you wish to support me (Nicemans) for further development, you should vote for 0x6b668c559600186477baf091fc572ffdcca7d8ea
 I have so far done the following for the community:
+* Assisted Toasty Leaf with integrating HPB into the MMORPG Tale of Toast <https://taleoftoast.com>
 * Created the first web and desktop wallet at <https://myhpbwallet.com>
 * Created hardware wallet support for Ledger and Trezor
 * Created voting ability for Ledger and Trezor
