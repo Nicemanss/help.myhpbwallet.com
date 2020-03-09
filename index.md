@@ -6,7 +6,7 @@
 1. Head over to <https://myhpbwallet.com/#contracts>
 2. Under "Select Existing Contract", select "Vote"
 3. Press the "Access" button
-4. Under "Read / Write Contract", select "vote"
+4. Under "Read / Write Contract", select "Batch Vote"
 5. In the "voterAddr" field, input the public key of the wallet you are going to send your votes from (for example 0xA34dcE25B3DC41d68e7c909EC5c2AEAFbB097309).
 6. In the "candidateAddr" field, input the public key of the node you are voting for.
 
