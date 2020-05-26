@@ -71,8 +71,8 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 21. Verify that your Node address now differs from the Binding address by opening your node on <http://hpbscan.org/nodes>
 
 
-
-## How to vote For or Against the 6 month node election period
+## Community Vote
+### How to vote For or Against the 6 month node election period
 0. If you are doing this with a Ledger, you need to ensure that you enable Contract Data in the settings of the HPB app on your Ledger.
 1. Head over to <https://myhpbwallet.com/#contracts>
 2. Under "Select Existing Contract", select "Burn Vote"
