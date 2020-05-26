@@ -72,13 +72,13 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 
 
 
-## How to vote For or Against the Locked-Position Function
+## How to vote For or Against the 6 month node election period
 0. If you are doing this with a Ledger, you need to ensure that you enable Contract Data in the settings of the HPB app on your Ledger.
 1. Head over to <https://myhpbwallet.com/#contracts>
 2. Under "Select Existing Contract", select "Burn Vote"
 3. Press the "Access" button
 4. Under "Read / Write Contract", select "voteProposal"
-5. In the "no" field, input: 9a2bf66356d34e638eb7599ebf569076
+5. In the "no" field, input: 3fa0648a1bf1431b85690fd2110fd6d6
 6. In the "flag" field, input 1 if you wish to vote YES, or 0 if you wish to vote NO.
 
 7. In the "num" field, input the amount of HPB you wish to vote, in *Wei*. Minimum you can vote is 100, and if you wish to vote 100 you would input 1000000000000000000 in the "num" box. For easy conversion, you can use <http://eth-converter.com/> - simply add the amount of HPB you wish to vote for in the "Ether" field, and then copy the corresponding number from the Wei field into the "num" field.
