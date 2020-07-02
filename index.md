@@ -87,3 +87,19 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 10. A box will pop up. Ensure the amount of send is 0 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
 11. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
 12. Check your transaction history on <http://hpbscan.org/address/YOURPUBLICKEY> and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have tried to vote with a wrong amount (remember to input in Wei , and verify you have the amount of coins on your wallet).
+
+## Node Lock (!!!!DO NOT USE, NOT TESTED!!!!)
+### How to Lock 30 000 HPB for your Node. Only use this if you are a node!
+0. If you are doing this with a Ledger, you need to ensure that you enable Contract Data in the settings of the HPB app on your Ledger.
+1. Head over to <https://myhpbwallet.com/#contracts>
+2. Under "Select Existing Contract", select "Node Lock"
+3. Press the "Access" button
+4. Under "Read / Write Contract", select "stake"
+5. In the "nodeAddr" field, input the address which is physically bound to your BOE (Binding Address)
+6. Press the "Write" button
+7. Open the wallet assigned as your "Node Address"
+8. A box will pop up. Ensure the amount is set to 30 000 (this is the amount of HPB you would send to the contract address), and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
+9. Verify that the address you are sending the 30 000 HPB to is correct on your physical Ledger/Trezor. It should be 0x9c52535541ace93950636649dab6f2892f02ea75.
+10. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
+11. Check your transaction history on <http://hpbscan.org/address/YOURPUBLICKEY> and verify that it did not fail for some reason.
+
