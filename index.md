@@ -88,8 +88,8 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 11. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
 12. Check your transaction history on <http://hpbscan.org/address/YOURPUBLICKEY> and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have tried to vote with a wrong amount (remember to input in Wei , and verify you have the amount of coins on your wallet).
 
-## Node Lock (!!!!DO NOT USE, NOT TESTED!!!!)
-### How to Lock 30 000 HPB for your Node. Only use this if you are a node!
+## Node Lock
+### How to Lock 30 000 HPB for your Node. Only use this if you are a node! !!! Pay CLOSE attention to the process so you do not lose 30 000 HPB!!!
 0. If you are doing this with a Ledger, you need to ensure that you enable Contract Data in the settings of the HPB app on your Ledger.
 1. Head over to <https://myhpbwallet.com/#contracts>
 2. Under "Select Existing Contract", select "Node Lock"
