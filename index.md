@@ -104,3 +104,19 @@ Follow the same steps as "How to vote", but select cancelVoteForContract in poin
 10. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
 11. Check your transaction history on <http://hpbscan.org/address/YOURPUBLICKEY> and verify that it did not fail for some reason.
 
+
+## Stake HPB
+### To stake HPB, use the function below. Current annual return is 5%. If you stake 1000 HPB for the staking period and then have less than 1000 HPB then you do not get any return.
+0. If you are doing this with a Ledger, you need to ensure that you enable Contract Data in the settings of the HPB app on your Ledger.
+1. Head over to <https://myhpbwallet.com/#contracts>
+2. Under "Select Existing Contract", select "Stake HPB"
+3. Press the "Access" button
+4. Under "Read / Write Contract", select "addHpbLock"
+5. In the "addr" field, input the address of your wallet
+6. In the "lockNum" field, input the amount of HPB you wish to stake, in WEI. For easy conversion from HPB to WEI you can use <http://eth-converter.com/> - simply add the amount of HPB you wish to vote for in the "Ether" field, and then copy the corresponding number from the Wei field into the "num" field.
+7. In the "stageNum", input "2" (without the quotes) as this is the second staking period.
+8. Press the "Write" button
+9. Open the wallet you inputted in the "addr" field.
+10. A box will pop up. Ensure the amount of HPB to send is 0 and that the Gas Limit is not -1 (it should auto generate the required Gas Limit, but if not you can input 8000000 as limit).
+11. Check the transaction, and if all looks good press the "Yes, I am sure! Make transaction." button
+12. Check your transaction history on <http://hpbscan.org/address/YOURPUBLICKEY> and verify that it did not fail for some reason. If it fails you will see a red exclamation mark next to the transaction. Most likely you have tried to vote with a wrong amount (remember to input in Wei , and verify you have the amount of coins on your wallet).
