@@ -10,8 +10,9 @@
 5. In the "voterAddr" field, input the public key of the wallet you are going to send your votes from (for example 0xA34dcE25B3DC41d68e7c909EC5c2AEAFbB097309).
 6. In the "candidateAddr" field, input the public key of the node you are voting for.
 
-If you wish to support me (Nicemans) for further development, you should vote for 0x6b668c559600186477baf091fc572ffdcca7d8ea
+If you wish to support me (Nicemans) for further development, you should vote for 0x6b668c559600186477baf091fc572ffdcca7d8ea . You also get 100% voter rewards.
 I have so far done the following for the community:
+* Got HPB added to https://blocktivity.info
 * Created the raffle bot for "HPB Price" chat that uses HPB and its Hardware Random Number Generator: http://verify.myhpbwallet.com
 * Assisted Toasty Leaf with integrating HPB into the MMORPG Tale of Toast <https://taleoftoast.com>
 * Created the first web and desktop wallet at <https://myhpbwallet.com>
